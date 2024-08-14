@@ -1,0 +1,122 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+.headline{
+    text-align: center;
+    color: dimgray;
+}
+h1 {
+    font-size: 4vw;
+    margin: 0em;
+}
+.headline p {
+    font-size: 2.1vw;
+    margin: -0.2em 0em 0.3em 0em;
+}
+.headingImage {
+    background: transparent;
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+}
+#start {
+    position: relative;
+    left: 45%;
+    font-size: 0.6em;
+    padding: 0.8em;
+    background: #6e7c7c;
+    color: whitesmoke;
+    border-radius: 0.8em;
+    animation: blink 2.5s infinite;
+}
+hr {
+    position: relative;
+    margin: 0.7em 0em 0.7em 0em;
+}
+.logoGPO {
+    float: left;
+    position: relative;
+    top: 10%;
+    left: 2.8%;
+    transform: translate(-17%, 1%);
+    max-width: 15%;
+}
+.trainingDescription {
+    top: 10%;
+    left: 2.8%;
+    transform: translate(1.5%, -9%);
+    font-size: 0.85em;
+    line-height: 1.35em;
+}
+.signature {
+    font-size: 0.85em;
+    text-align: right;
+    font: bold;
+    margin-top: -1em;
+}
+.toc {
+    padding: 15px;
+    width: 100%;
+    margin-top: -1.5em;
+}
+.toc h2 {
+    font-size: 1.5em;
+    margin: 0.1em, 1em, 1em, 0em,;
+}
+.toc p {
+    font-size: 0.9em;
+    line-height: 1.25em;
+    margin-top: -1.5em;
+}
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.toc li {
+    margin-bottom: 5px;
+}
+.toc a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+.toc a:hover {
+    text-decoration: underline;
+}
+.listToc a {
+    font-size: 1rem; 
+    color: dimgrey;
+}
+.fa {
+    display: inline-block; 
+    margin: 1.4em 0.45em 0.2em 0.45em;
+    font-size: 0.75rem; 
+}
+.nestedElement{
+    margin: -0.5em 0em 0.2em 1.9em;
+    font-size: 0.85em;
+}
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+
